@@ -32,7 +32,7 @@ myAudio.onpause = function() {
 };
 
 
-document.getElementsByClassName("cote")[0].addEventListener("mouseenter", function(){
+document.getElementsByClassName("cote")[0].addEventListener("click", function(){
   var cotemyrr = new Audio();
   cotemyrr.src = '/libs/files/audio/cote.mp3';
   cotemyrr.play();
