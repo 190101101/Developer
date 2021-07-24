@@ -31,7 +31,6 @@ myAudio.onpause = function() {
   isPlaying = false;
 };
 
-/*
 var mycote = document.getElementById("cote");
 var iscotePlaying = false;
 
@@ -45,11 +44,3 @@ mycote.oncoteplaying = function() {
 mycote.oncotepause = function() {
   iscotePlaying = false;
 };
-*/
-
-
-document.getElementsByClassName("cote")[0].addEventListener("mouseenter", function(){
-  var cotemyrr = new Audio();
-  cotemyrr.src = '/libs/files/audio/cote.mp3';
-  cotemyrr.play();
-});
