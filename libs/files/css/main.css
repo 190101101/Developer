@@ -305,7 +305,7 @@ select option {
 .site-head span:nth-child(2) {
     letter-spacing: .7px;
     color: rgb(176, 179, 184) !important;
-    font-size: 25px;
+    font-size: 26px;
 }
 
 .site-head::after {
