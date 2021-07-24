@@ -30,3 +30,10 @@ myAudio.onplaying = function() {
 myAudio.onpause = function() {
   isPlaying = false;
 };
+
+
+document.getElementsByClassName("cote")[0].addEventListener("mouseenter", function(){
+  var cotemyrr = new Audio();
+  cotemyrr.src = '/libs/files/audio/cote.mp3';
+  cotemyrr.play();
+});
