@@ -1,0 +1,277 @@
+.carrot{
+	color: #e84118 !important;
+}
+
+.green{
+	color: #28a745 !important;
+}
+
+.teal{
+	color: #20c997 !important;
+}
+
+.indigo{
+	color: #6610f2 !important;
+}
+
+.blue{
+	color: #007bff !important;
+}
+
+.salmon{
+	color: #FA8072 !important;
+}
+
+.crimson{
+	color: #DC143C !important;
+}
+
+.coral{
+	color: #F08080 !important;
+}
+
+.lightgreen{
+	color: #20B2AA !important;
+}
+
+.yellow{
+	color: #FFFF00 !important;
+}
+
+.darktur{
+	color: #00CED1 !important;
+}
+
+.dodger{
+	color: #1E90FF !important;
+}
+
+.medium{
+	color: #7B68EE !important;
+}
+
+.spring{
+	color: #00FF7F !important;
+}
+
+.black{
+	color: #000 !important;
+}
+
+.fgreen{
+	color: #8ac832 !important;
+}
+
+.deeppink{
+	color: #FF1493 !important;
+}
+
+.lime{
+	color: #00FF00 !important;
+}
+
+.seagreen{
+	color: #20B2AA !important;
+}
+
+.msgreen{
+	color: #00FA9A !important;
+}
+
+.magenta{
+	color: #FF00FF !important;
+}
+
+.pink{
+	color: #FFC0CB !important;
+}
+
+.darkgreen{
+	color: #006400 !important;
+}
+
+/*background*/
+.bg-carrot{
+	background: #e84118 !important;
+}
+
+.bg-green{
+	background: #28a745 !important;
+}
+
+.bg-teal{
+	background: #20c997 !important;
+}
+
+.bg-indigo{
+	background: #6610f2 !important;
+}
+
+.bg-blue{
+	background: #007bff !important;
+}
+
+.bg-salmon{
+	background: #FA8072 !important;
+}
+
+.bg-crimson{
+	background: #DC143C !important;
+}
+
+.bg-coral{
+	background: #F08080 !important;
+}
+
+.bg-lightgreen{
+	background: #20B2AA !important;
+}
+
+.bg-yellow{
+	background: #FFFF00 !important;
+}
+
+.bg-darktur{
+	background: #00CED1 !important;
+}
+
+.bg-dodger{
+	background: #1E90FF !important;
+}
+
+.bg-medium{
+	background: #7B68EE !important;
+}
+
+.bg-spring{
+	background: #00FF7F !important;
+}
+
+.bg-black{
+	background: #000 !important;
+}
+
+.bg-fgreen{
+	background: #8ac832 !important;
+}
+
+.bg-deeppink{
+	background: #FF1493 !important;
+}
+
+.bg-lime{
+	background: #00FF00 !important;
+}
+
+.bg-seagreen{
+	background: #20B2AA !important;
+}
+
+.bg-msgreen{
+	background: #00FA9A !important;
+}
+
+.bg-magenta{
+	background: #FF00FF !important;
+}
+
+.bg-pink{
+	background: #FFC0CB !important;
+}
+
+.bg-darkgreen{
+	background: #006400 !important; 
+}
+
+/*shadow*/
+.w-carrot{
+	box-shadow: 0px 0px 10px 3px #e84118, inset 0px 0px 6px 3px #e84118 !important;
+}
+
+.w-green{
+	box-shadow: 0px 0px 10px 3px #28a745, inset 0px 0px 6px 3px #28a745 !important;
+}
+
+.w-teal{
+	box-shadow: 0px 0px 10px 3px #20c997, inset 0px 0px 6px 3px #20c997 !important;
+}
+
+.w-indigo{
+	box-shadow: 0px 0px 10px 3px #6610f2, inset 0px 0px 6px 3px #6610f2 !important;
+}
+
+.w-blue{
+	box-shadow: 0px 0px 10px 3px #007bff, inset 0px 0px 6px 3px #007bff !important;
+}
+
+.w-salmon{
+	box-shadow: 0px 0px 10px 3px #FA8072, inset 0px 0px 6px 3px #FA8072 !important;
+}
+
+.w-crimson{
+	box-shadow: 0px 0px 10px 3px #DC143C, inset 0px 0px 6px 3px #DC143C !important;
+}
+
+.w-coral{
+	box-shadow: 0px 0px 10px 3px #F08080, inset 0px 0px 6px 3px #F08080 !important;
+}
+
+.w-lightgreen{
+	box-shadow: 0px 0px 10px 3px #20B2AA, inset 0px 0px 6px 3px #20B2AA !important;
+}
+
+.w-yellow{
+	box-shadow: 0px 0px 10px 3px #FFFF00, inset 0px 0px 6px 3px #FFFF00 !important;
+}
+
+.w-darktur{
+	box-shadow: 0px 0px 10px 3px #00CED1, inset 0px 0px 6px 3px #00CED1 !important;
+}
+
+.w-dodger{
+	box-shadow: 0px 0px 10px 3px #1E90FF, inset 0px 0px 6px 3px #1E90FF !important;
+}
+
+.w-medium{
+	box-shadow: 0px 0px 10px 3px #7B68EE, inset 0px 0px 6px 3px #7B68EE !important;
+}
+
+.w-spring{
+	box-shadow: 0px 0px 10px 3px #00FF7F, inset 0px 0px 6px 3px #00FF7F !important;
+}
+
+.w-black{
+	box-shadow: 0px 0px 10px 3px #000, inset 0px 0px 6px 3px #000 !important;
+}
+
+.w-fgreen{
+	box-shadow: 0px 0px 10px 3px #8ac832, inset 0px 0px 6px 3px #8ac832 !important;
+}
+
+.w-deeppink{
+	box-shadow: 0px 0px 10px 3px #FF1493, inset 0px 0px 6px 3px #FF1493 !important;
+}
+
+.w-lime{
+	box-shadow: 0px 0px 10px 3px #00FF00, inset 0px 0px 6px 3px #00FF00 !important;
+}
+
+.w-seagreen{
+	box-shadow: 0px 0px 10px 3px #20B2AA, inset 0px 0px 6px 3px #20B2AA !important;
+}
+
+.w-msgreen{
+	box-shadow: 0px 0px 10px 3px #00FA9A, inset 0px 0px 6px 3px #00FA9A !important;
+}
+
+.w-magenta{
+	box-shadow: 0px 0px 10px 3px #FF00FF, inset 0px 0px 6px 3px #FF00FF !important;
+}
+
+.w-pink{
+	box-shadow: 0px 0px 10px 3px #FFC0CB, inset 0px 0px 6px 3px #FFC0CB !important;
+}
+
+.w-darkgreen{
+	box-shadow: 0px 0px 10px 3px #006400, inset 0px 0px 6px 3px #006400 !important;
+}

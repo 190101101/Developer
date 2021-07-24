@@ -1,0 +1,636 @@
+.svg:hover:after{background: none !important; }
+
+.svg:nth-child(even):after{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  content: '';
+  animation: keyframesafter 1s ease-in-out infinite;
+}
+.svg:nth-child(odd):after{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  content: '';
+  animation: keyframesafter 1s ease-in-out infinite;
+}
+
+.svg:nth-child(1):after{
+  background-image: url(../image/svg/tech/html.svg#html);
+}
+
+.svg:nth-child(2):after{
+  background-image: url(../image/svg/tech/css.svg#css);
+}
+
+.svg:nth-child(3):after{
+  background-image: url(../image/svg/tech/github.svg#github);
+}
+
+.svg:nth-child(4):after{
+  background-image: url(../image/svg/tech/laravel.svg#laravel);
+}
+
+.svg:nth-child(5):after{
+  background-image: url(../image/svg/tech/git.svg#git);
+}
+
+
+.svg:nth-child(6):after{
+  background-image: url(../image/svg/tech/mysql.svg#mysql);
+}
+
+
+.svg:nth-child(7):after{
+  background-image: url(../image/svg/tech/overflow.svg#overflow);
+}
+
+.svg:nth-child(8):after{
+  background-image: url(../image/svg/tech/boot.svg#boot);
+}
+
+
+.svg:nth-child(9):after{
+  background-image: url(../image/svg/tech/sass.svg#sass);
+}
+
+.svg:nth-child(10):after{
+  background-image: url(../image/svg/tech/cakephp.svg#cakephp);
+}
+
+
+
+.svg:nth-child(11):after{
+  background-image: url(../image/svg/tech/php.svg#php);
+}
+
+
+
+.svg:nth-child(12):after{
+  background-image: url(../image/svg/tech/javascript.svg#javascript);
+}
+
+
+.svg:nth-child(13):after{
+  background-image: url(../image/svg/tech/wordpress.svg#wordpress);
+}
+
+
+.svg:nth-child(14):after{
+  background-image: url(../image/svg/tech/composer.svg#composer);
+}
+
+
+
+.svg:nth-child(15):after{
+  background-image: url(../image/svg/tech/node.svg#node);
+}
+
+
+.svg:nth-child(16):after{
+  background-image: url(../image/svg/tech/cpanel.svg#cpanel);
+}
+
+
+
+.svg:nth-child(17):after{
+  background-image: url(../image/svg/tech/mongo.svg#mongo);
+}
+
+
+.svg:nth-child(18):after{
+  background-image: url(../image/svg/tech/codeigniter.svg#codeigniter);
+}
+
+
+
+.svg:nth-child(19):after{
+  background-image: url(../image/svg/tech/vue.svg#vue);
+}
+
+.svg:nth-child(20):after{
+  background-image: url(../image/svg/tech/cloudflare.svg#cloudflare);
+}
+
+
+.svg:nth-child(21):after{
+  background-image: url(../image/svg/tech/jquery.svg#jquery);
+}
+
+
+.svg:nth-child(22):after{
+  background-image: url(../image/svg/tech/less.svg#less);
+}
+
+
+.svg:nth-child(23):after{
+  background-image: url(../image/svg/tech/fiddle.svg#fiddle);
+}
+
+
+.svg:nth-child(24):after{
+  background-image: url(../image/svg/tech/github.svg#github);
+}
+
+
+.svg:nth-child(25):after{
+  background-image: url(../image/svg/tech/codepen.svg#codepen);
+}
+
+.svg:nth-child(26):after{
+  background-image: url(../image/svg/tech/gulp.svg#gulp);
+}
+
+.svg:nth-child(27):after{
+  background-image: url(../image/svg/tech/nuxt.svg#nuxt);
+}
+
+.svg:nth-child(28):after{
+  background-image: url(../image/svg/tech/react.svg#react);
+}
+
+.svg:nth-child(29):after{
+  background-image: url(../image/svg/tech/redux.svg#redux);
+}
+
+.svg:nth-child(30):after{
+  background-image: url(../image/svg/tech/react.svg#react);
+}
+
+@keyframes keyframesafter
+{
+    20% {
+     transform: perspective(100px) translateX(7px); 
+      opacity: 0;
+    }   
+
+    70% {
+       transform: perspective(10px) translateX(2px);
+       opacity: 1;
+    }
+}
+
+
+.svg:hover:before{background: none !important; }
+
+.svg:nth-child(even):before{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  content: '';
+  animation: keyframesbefore 1s ease-in-out infinite;
+}
+.svg:nth-child(odd):before{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  content: '';
+  animation: keyframesbefore 1s ease-in-out infinite;
+}
+
+.svg:nth-child(1):before{
+  background-image: url(../image/svg/tech/html.svg#html);
+}
+
+.svg:nth-child(2):before{
+  background-image: url(../image/svg/tech/css.svg#css);
+}
+
+.svg:nth-child(3):before{
+  background-image: url(../image/svg/tech/github.svg#github);
+}
+
+.svg:nth-child(4):before{
+  background-image: url(../image/svg/tech/laravel.svg#laravel);
+}
+
+.svg:nth-child(5):before{
+  background-image: url(../image/svg/tech/git.svg#git);
+}
+
+
+.svg:nth-child(6):before{
+  background-image: url(../image/svg/tech/mysql.svg#mysql);
+}
+
+
+.svg:nth-child(7):before{
+  background-image: url(../image/svg/tech/overflow.svg#overflow);
+}
+
+.svg:nth-child(8):before{
+  background-image: url(../image/svg/tech/boot.svg#boot);
+}
+
+
+.svg:nth-child(9):before{
+  background-image: url(../image/svg/tech/sass.svg#sass);
+}
+
+
+
+.svg:nth-child(10):before{
+  background-image: url(../image/svg/tech/cakephp.svg#cakephp);
+}
+
+
+
+.svg:nth-child(11):before{
+  background-image: url(../image/svg/tech/php.svg#php);
+}
+
+
+
+.svg:nth-child(12):before{
+  background-image: url(../image/svg/tech/javascript.svg#javascript);
+}
+
+
+.svg:nth-child(13):before{
+  background-image: url(../image/svg/tech/wordpress.svg#wordpress);
+}
+
+
+.svg:nth-child(14):before{
+  background-image: url(../image/svg/tech/composer.svg#composer);
+}
+
+
+
+.svg:nth-child(15):before{
+  background-image: url(../image/svg/tech/node.svg#node);
+}
+
+
+.svg:nth-child(16):before{
+  background-image: url(../image/svg/tech/cpanel.svg#cpanel);
+}
+
+
+
+.svg:nth-child(17):before{
+  background-image: url(../image/svg/tech/mongo.svg#mongo);
+}
+
+
+.svg:nth-child(18):before{
+  background-image: url(../image/svg/tech/codeigniter.svg#codeigniter);
+}
+
+
+
+.svg:nth-child(19):before{
+  background-image: url(../image/svg/tech/vue.svg#vue);
+}
+
+.svg:nth-child(20):before{
+  background-image: url(../image/svg/tech/cloudflare.svg#cloudflare);
+}
+
+
+.svg:nth-child(21):before{
+  background-image: url(../image/svg/tech/jquery.svg#jquery);
+}
+
+
+.svg:nth-child(22):before{
+  background-image: url(../image/svg/tech/less.svg#less);
+}
+
+
+.svg:nth-child(23):before{
+  background-image: url(../image/svg/tech/fiddle.svg#fiddle);
+}
+
+
+.svg:nth-child(24):before{
+  background-image: url(../image/svg/tech/github.svg#github);
+}
+
+.svg:nth-child(25):before{
+  background-image: url(../image/svg/tech/codepen.svg#codepen);
+}
+
+.svg:nth-child(26):before{
+  background-image: url(../image/svg/tech/gulp.svg#gulp);
+}
+
+.svg:nth-child(27):before{
+  background-image: url(../image/svg/tech/nuxt.svg#nuxt);
+}
+
+.svg:nth-child(28):before{
+  background-image: url(../image/svg/tech/react.svg#react);
+}
+
+.svg:nth-child(29):before{
+  background-image: url(../image/svg/tech/redux.svg#redux);
+}
+
+.svg:nth-child(30):before{
+  background-image: url(../image/svg/tech/react.svg#react);
+}
+
+@keyframes keyframesbefore
+{
+    20% {
+     transform: perspective(100px) translateX(-7px); 
+      opacity: 0;
+    }   
+
+    70% {
+       transform: perspective(10px) translateX(-2px);
+       opacity: 1;
+    }
+}
+
+
+
+/*2*/
+.svg:nth-child(31):after{
+  background-image: url(../image/svg/tech/html.svg#html);
+}
+
+.svg:nth-child(32):after{
+  background-image: url(../image/svg/tech/css.svg#css);
+}
+
+.svg:nth-child(33):after{
+  background-image: url(../image/svg/tech/github.svg#github);
+}
+
+.svg:nth-child(34):after{
+  background-image: url(../image/svg/tech/laravel.svg#laravel);
+}
+
+.svg:nth-child(35):after{
+  background-image: url(../image/svg/tech/git.svg#git);
+}
+
+
+.svg:nth-child(36):after{
+  background-image: url(../image/svg/tech/mysql.svg#mysql);
+}
+
+
+.svg:nth-child(37):after{
+  background-image: url(../image/svg/tech/overflow.svg#overflow);
+}
+
+.svg:nth-child(38):after{
+  background-image: url(../image/svg/tech/boot.svg#boot);
+}
+
+
+.svg:nth-child(39):after{
+  background-image: url(../image/svg/tech/sass.svg#sass);
+}
+
+.svg:nth-child(40):after{
+  background-image: url(../image/svg/tech/cakephp.svg#cakephp);
+}
+
+
+
+.svg:nth-child(41):after{
+  background-image: url(../image/svg/tech/php.svg#php);
+}
+
+
+
+.svg:nth-child(42):after{
+  background-image: url(../image/svg/tech/javascript.svg#javascript);
+}
+
+
+.svg:nth-child(43):after{
+  background-image: url(../image/svg/tech/wordpress.svg#wordpress);
+}
+
+
+.svg:nth-child(44):after{
+  background-image: url(../image/svg/tech/composer.svg#composer);
+}
+
+
+
+.svg:nth-child(45):after{
+  background-image: url(../image/svg/tech/node.svg#node);
+}
+
+
+.svg:nth-child(46):after{
+  background-image: url(../image/svg/tech/cpanel.svg#cpanel);
+}
+
+
+
+.svg:nth-child(47):after{
+  background-image: url(../image/svg/tech/mongo.svg#mongo);
+}
+
+
+.svg:nth-child(48):after{
+  background-image: url(../image/svg/tech/codeigniter.svg#codeigniter);
+}
+
+
+
+.svg:nth-child(49):after{
+  background-image: url(../image/svg/tech/vue.svg#vue);
+}
+
+.svg:nth-child(50):after{
+  background-image: url(../image/svg/tech/cloudflare.svg#cloudflare);
+}
+
+
+.svg:nth-child(51):after{
+  background-image: url(../image/svg/tech/jquery.svg#jquery);
+}
+
+
+.svg:nth-child(52):after{
+  background-image: url(../image/svg/tech/less.svg#less);
+}
+
+
+.svg:nth-child(53):after{
+  background-image: url(../image/svg/tech/fiddle.svg#fiddle);
+}
+
+
+.svg:nth-child(54):after{
+  background-image: url(../image/svg/tech/github.svg#github);
+}
+
+
+.svg:nth-child(55):after{
+  background-image: url(../image/svg/tech/codepen.svg#codepen);
+}
+
+.svg:nth-child(56):after{
+  background-image: url(../image/svg/tech/gulp.svg#gulp);
+}
+
+.svg:nth-child(57):after{
+  background-image: url(../image/svg/tech/nuxt.svg#nuxt);
+}
+
+.svg:nth-child(58):after{
+  background-image: url(../image/svg/tech/react.svg#react);
+}
+
+.svg:nth-child(59):after{
+  background-image: url(../image/svg/tech/redux.svg#redux);
+}
+
+.svg:nth-child(60):after{
+  background-image: url(../image/svg/tech/react.svg#react);
+}
+
+/**/
+
+
+/*2*/
+.svg:nth-child(31):before{
+  background-image: url(../image/svg/tech/html.svg#html);
+}
+
+.svg:nth-child(32):before{
+  background-image: url(../image/svg/tech/css.svg#css);
+}
+
+.svg:nth-child(33):before{
+  background-image: url(../image/svg/tech/github.svg#github);
+}
+
+.svg:nth-child(34):before{
+  background-image: url(../image/svg/tech/laravel.svg#laravel);
+}
+
+.svg:nth-child(35):before{
+  background-image: url(../image/svg/tech/git.svg#git);
+}
+
+
+.svg:nth-child(36):before{
+  background-image: url(../image/svg/tech/mysql.svg#mysql);
+}
+
+
+.svg:nth-child(37):before{
+  background-image: url(../image/svg/tech/overflow.svg#overflow);
+}
+
+.svg:nth-child(38):before{
+  background-image: url(../image/svg/tech/boot.svg#boot);
+}
+
+
+.svg:nth-child(39):before{
+  background-image: url(../image/svg/tech/sass.svg#sass);
+}
+
+.svg:nth-child(40):before{
+  background-image: url(../image/svg/tech/cakephp.svg#cakephp);
+}
+
+
+
+.svg:nth-child(41):before{
+  background-image: url(../image/svg/tech/php.svg#php);
+}
+
+
+
+.svg:nth-child(42):before{
+  background-image: url(../image/svg/tech/javascript.svg#javascript);
+}
+
+
+.svg:nth-child(43):before{
+  background-image: url(../image/svg/tech/wordpress.svg#wordpress);
+}
+
+
+.svg:nth-child(44):before{
+  background-image: url(../image/svg/tech/composer.svg#composer);
+}
+
+
+
+.svg:nth-child(45):before{
+  background-image: url(../image/svg/tech/node.svg#node);
+}
+
+
+.svg:nth-child(46):before{
+  background-image: url(../image/svg/tech/cpanel.svg#cpanel);
+}
+
+
+
+.svg:nth-child(47):before{
+  background-image: url(../image/svg/tech/mongo.svg#mongo);
+}
+
+
+.svg:nth-child(48):before{
+  background-image: url(../image/svg/tech/codeigniter.svg#codeigniter);
+}
+
+
+
+.svg:nth-child(49):before{
+  background-image: url(../image/svg/tech/vue.svg#vue);
+}
+
+.svg:nth-child(50):before{
+  background-image: url(../image/svg/tech/cloudflare.svg#cloudflare);
+}
+
+
+.svg:nth-child(51):before{
+  background-image: url(../image/svg/tech/jquery.svg#jquery);
+}
+
+
+.svg:nth-child(52):before{
+  background-image: url(../image/svg/tech/less.svg#less);
+}
+
+
+.svg:nth-child(53):before{
+  background-image: url(../image/svg/tech/fiddle.svg#fiddle);
+}
+
+
+.svg:nth-child(54):before{
+  background-image: url(../image/svg/tech/github.svg#github);
+}
+
+
+.svg:nth-child(55):before{
+  background-image: url(../image/svg/tech/codepen.svg#codepen);
+}
+
+.svg:nth-child(56):before{
+  background-image: url(../image/svg/tech/gulp.svg#gulp);
+}
+
+.svg:nth-child(57):before{
+  background-image: url(../image/svg/tech/nuxt.svg#nuxt);
+}
+
+.svg:nth-child(58):before{
+  background-image: url(../image/svg/tech/react.svg#react);
+}
+
+.svg:nth-child(59):before{
+  background-image: url(../image/svg/tech/redux.svg#redux);
+}
+
+.svg:nth-child(60):before{
+  background-image: url(../image/svg/tech/react.svg#react);
+}

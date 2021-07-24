@@ -1,0 +1,149 @@
+.svg:hover.svg:before{
+	content: '';
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-repeat: no-repeat;
+ 	background-size: auto;
+ 	background-position: center bottom;
+}
+
+.svg{
+	margin: 10px;
+	width: 60px;
+	height: 60px;
+	transition: all .2s linear;
+	animation: svg 1s;	
+	position: relative;
+}
+
+
+@keyframes svg{
+	from{
+		opacity: 0;
+		transform: rotateX(90deg);
+	}
+
+	to{
+		opacity: 1;
+		transform: rotateX(0deg);
+	}
+}
+
+
+.svg-html{
+	background-image: url(../image/svg/tech/html.svg#html);
+}
+
+.svg-css{
+	background-image: url(../image/svg/tech/css.svg#css);
+}
+
+.svg-github{
+	background-image: url(../image/svg/tech/github.svg#github);
+}
+
+.svg-laravel{
+	background-image: url(../image/svg/tech/laravel.svg#laravel);
+}
+
+.svg-git{
+	background-image: url(../image/svg/tech/git.svg#git);
+}
+
+.svg-mysql{
+	background-image: url(../image/svg/tech/mysql.svg#mysql);
+}
+
+.svg-overflow{
+	background-image: url(../image/svg/tech/overflow.svg#overflow);
+}
+
+.svg-boot{
+	background-image: url(../image/svg/tech/boot.svg#boot);
+}
+
+.svg-sass{
+	background-image: url(../image/svg/tech/sass.svg#sass);
+}
+
+.svg-cakephp{
+	background-image: url(../image/svg/tech/cakephp.svg#cakephp);
+}
+
+.svg-php{
+	background-image: url(../image/svg/tech/php.svg#php);
+}
+
+.svg-javascript{
+	background-image: url(../image/svg/tech/javascript.svg#javascript);
+}
+
+.svg-wordpress{
+	background-image: url(../image/svg/tech/wordpress.svg#wordpress);
+}
+
+.svg-composer{
+	background-image: url(../image/svg/tech/composer.svg#composer);
+}
+
+.svg-node{
+	background-image: url(../image/svg/tech/node.svg#node);
+}
+
+.svg-cpanel{
+	background-image: url(../image/svg/tech/cpanel.svg#cpanel);
+}
+
+.svg-mongo{
+	background-image: url(../image/svg/tech/mongo.svg#mongo);
+}
+
+.svg-codeigniter{
+	background-image: url(../image/svg/tech/codeigniter.svg#codeigniter);
+}
+
+.svg-vue{
+	background-image: url(../image/svg/tech/vue.svg#vue);
+}
+
+.svg-cloudflare{
+	background-image: url(../image/svg/tech/cloudflare.svg#cloudflare);
+}
+
+.svg-jquery{
+	background-image: url(../image/svg/tech/jquery.svg#jquery);
+}
+
+.svg-less{
+	background-image: url(../image/svg/tech/less.svg#less);
+}
+
+.svg-fiddle{
+	background-image: url(../image/svg/tech/fiddle.svg#fiddle);
+}
+
+.svg-codepen{
+	background-image: url(../image/svg/tech/codepen.svg#codepen);
+}
+
+.svg-gulp{
+	background-image: url(../image/svg/tech/gulp.svg#gulp);
+}
+
+.svg-nuxt{
+	background-image: url(../image/svg/tech/nuxt.svg#nuxt);
+}
+
+.svg-react{
+	background-image: url(../image/svg/tech/react.svg#react);
+}
+
+.svg-redux{
+	background-image: url(../image/svg/tech/redux.svg#redux);
+}
+
+.svg-react{
+	background-image: url(../image/svg/tech/react.svg#react);
+}
