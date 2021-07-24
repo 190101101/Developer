@@ -32,22 +32,3 @@ myAudio.onpause = function() {
 };
 
 
-var myAudio = document.getElementById("rhapsody");
-var isPlaying = false;
-
-function togglePlay() {
-  isPlaying ? myAudio.pause() : myAudio.play();
-};
-
-myAudio.onplaying = function() {
-  isPlaying = true;
-};
-myAudio.onpause = function() {
-  isPlaying = false;
-};
-
-document.getElementsByClassName("cote")[0].addEventListener("mouseenter", function(){
-  var cotemyrr = new Audio();
-  cotemyrr.src = '/libs/files/audio/cote.mp3';
-  cotemyrr.play();
-});
