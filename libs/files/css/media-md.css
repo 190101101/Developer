@@ -94,7 +94,7 @@
 	}
 }
 
-@media screen and (min-width: 340px) and (max-width: 398px){
+@media screen and (min-width: 340px) and (max-width: 397px){
 	.site-head{
 	    line-height: 20px;
 	}
@@ -103,15 +103,24 @@
 	}
 }
 
-
-@media screen and (min-width: 0px) and (max-width: 339px){
+@media screen and (min-width: 200px) and (max-width: 339px){
 	.site-head{
-	    line-height: 20px;
+	    line-height: 17px;
 	}
 	.site-head span{
-		font-size: 1.4vh !important;
+		font-size: 1.2vh !important;
 	}
 }
+
+@media screen and (min-width: 0px) and (max-width: 199px){
+	.site-head{
+	    line-height: 15px;
+	}
+	.site-head span{
+		font-size: 1vh !important;
+	}
+}
+
 
 
 @media screen and (min-width: 499px) and (max-width: 767px){
