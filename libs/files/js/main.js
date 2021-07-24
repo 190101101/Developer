@@ -31,4 +31,25 @@ myAudio.onpause = function() {
   isPlaying = false;
 };
 
+/*
+var mycote = document.getElementById("cote");
+var iscotePlaying = false;
 
+function cotePlay() {
+  iscotePlaying ? mycote.pause() : mycote.play();
+};
+
+mycote.oncoteplaying = function() {
+  iscotePlaying = true;
+};
+mycote.oncotepause = function() {
+  iscotePlaying = false;
+};
+*/
+
+
+document.getElementsByClassName("cote")[0].addEventListener("mouseenter", function(){
+  var cotemyrr = new Audio();
+  cotemyrr.src = '/libs/files/audio/cote.mp3';
+  cotemyrr.play();
+});
