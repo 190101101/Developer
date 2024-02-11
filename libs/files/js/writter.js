@@ -2,16 +2,20 @@ const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
 const textArray = [
-                    'hello friend i am php web developer', 
-                    'technologies that I use when I create applications', 
-                    '✔ :: PHP / Laravel',
-                    '✔ :: MySQL / SQL',
-                    '✔ :: VCS: / Composer / Git / Github / packagist',
-                    '✔ :: MVC / SOLID / OOP',
-                    '✔ :: REST API',
-                    '✔ :: Html5 / XML',
-                    '✔ :: CSS3 / Bootstrap5 / LESS',
-                    '✔ :: JavaScript / jQuery / JSON',
+                    'hello friend', 
+                    ':: My technology stack ::', 
+                    '✔ :: JavaScript / Node js / Express js / Electron js',
+                    '✔ :: TypeScript / Nest js',
+                    '✔ :: React / Redux / GraphQL / Apollo Server / Next js / React Native',
+                    '✔ :: MySQL / SQL / PostgreSQL, MongoDb / Mongoose',
+                    '✔ :: VCS: / Git / Github / npm / yarn',
+                    '✔ :: MVC / SOLID / OOP / Pattern Designs',
+                    '✔ :: Html5 / CSS3 / Bootstrap5 / tailwind',
+                    '✔ :: REST / GraphQL / API / Swagger',
+                    '✔ :: JSON / SOAP/ XML',
+                    '✔ :: Microservices / RabbitMQ / Redis / Puppeteer',
+                    '✔ :: Docker / Kubernetes / Ansible',
+                    '✔ :: Linux / Debian',
                   ];
 const typingDelay = 50;
 const erasingDelay = 0;
