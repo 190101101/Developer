@@ -36,6 +36,20 @@ body ::selection {
     color: #8ac832 !important;
 }
 
+
+.loading{
+  position: absolute;
+  top: 0;
+  left: -100px;
+  width: 0%;
+  background: #8ac832;
+  box-shadow: 0px 0px 12px 6px #8ac832;
+  height: 3px;
+  z-index: 1;
+  transition: .1s all;
+}
+
+
 @keyframes opfuncform{
   from{
     opacity: 0;

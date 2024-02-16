@@ -44,3 +44,25 @@ mycote.oncoteplaying = function() {
 mycote.oncotepause = function() {
   iscotePlaying = false;
 };
+
+
+const loading = document.querySelector('.loading');
+
+window.addEventListener('load', () => {
+    let currentWidth = 0;
+    let currentLeft = 0;
+
+    const timer = setInterval(() => {
+        currentWidth+=1;
+        loading.style.width = `${currentWidth}%`;
+
+        if(currentWidth >= 100){
+            currentLeft+=1;
+            loading.style.left = `${currentLeft}%`;
+
+            if(currentLeft >= 100){
+                clearTimeout(timer);
+            }
+        }
+    }, 10);
+});
